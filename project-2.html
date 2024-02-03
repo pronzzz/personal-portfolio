@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Project 2</title>
-    <meta name="description" content="Case study page of Project" />
+    <title>Case Study of Red Wine Quality Prediction Model🍷</title>
+    <meta name="description" content="Case study page of Red Wine Quality Prediction Model🍷" />
 
     <link rel="stylesheet" href="css/style.css" />
 
@@ -27,7 +27,7 @@
               class="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">John Doe</span>
+          <span class="header__logo-sub">Pranav Dwivedi</span>
         </div>
         <div class="header__main">
           <ul class="header__links">
@@ -84,16 +84,15 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 2</h1>
+        <h1 class="heading-primary">Red Wine Quality Prediction Model🍷</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+            This page contains the case study of my Red Wine Quality Prediction Model Project which includes the Project Overview, Tools 
+            Used and the link to the project's Github Repository.
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+          <a href="https://github.com/pronzzz/red-wine-quality" class="btn btn--bg" target="_blank">Project Link</a>
         </div>
       </div>
     </section>
@@ -102,7 +101,7 @@
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="./assets/jpeg/project-mockup-example.jpeg"
+              src="./assets\jpeg\wine-mockup.jpeg"
               alt="Project Image"
               class="project-details__showcase-img"
             />
@@ -111,52 +110,78 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
+                Wine connoisseurs and enthusiasts often face the challenge of assessing red wine quality. Traditional methods 
+                rely on subjective tasting experiences, which can be inconsistent and influenced by personal preferences. 
+                This project addresses this problem by developing a data-driven model that can objectively predict wine quality 
+                based on measurable chemical parameters, enabling more informed decision-making.
               </p>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
+                <strong>Solution Approach:</strong>
+                <br>
+                To tackle this challenge, we employ the Random Forest Classifier algorithm, renowned for its robustness and 
+                ability to handle complex relationships within data. The algorithm constructs multiple decision trees during the 
+                training phase, where each tree independently makes predictions. The final prediction is determined by combining 
+                the results from all trees, resulting in improved accuracy and resilience against overfitting.
+              </p>
+              <p class="project-details__desc-para">
+                <strong>Implementation Details:</strong>
+                <br>
+                Utilizing Python's rich libraries, we begin by preprocessing the data, handling missing values, and normalizing features 
+                to ensure uniform scales. The dataset is then split into training and testing sets, preserving the integrity of 
+                the evaluation process.
+                <br>
+                The Random Forest Classifier is trained on the training set, optimizing its hyperparameters through grid search 
+                to achieve optimal performance. Once trained, the model is evaluated against the testing set to assess its 
+                predictive capabilities.
+              </p>
+              <p class="project-details__desc-para">
+                <strong>Results and Evaluation:</strong>
+                <br>
+                The model demonstrates impressive performance on the test set, achieving an accuracy score of 72.5%. This 
+                indicates that the model can effectively predict wine quality based on its chemical composition. To gain 
+                insights into the decision-making process, we visualize the structure of individual decision trees, allowing us 
+                to understand the key factors influencing quality predictions.
+              </p>
+              <p class="project-details__desc-para">
+                <strong>Conclusion:</strong>
+                <br>
+                This project showcases the power of machine learning in predicting wine quality using chemical parameters. The 
+                Random Forest Classifier proves to be a valuable tool for objective and accurate quality assessment, empowering 
+                wine enthusiasts and experts with data-driven insights. The model stands as a testament to the potential of 
+                data-driven approaches in transforming subjective evaluations into quantitative and reliable predictions.
+              </p>
+              <p class="project-details__desc-para">
+                To know more about my findings and the project, you can visit the project's Github repository by clicking 
+                the Project Link button below.
               </p>
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">React</div>
-                <div class="skills__skill">SASS</div>
-                <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Shopify</div>
-                <div class="skills__skill">Wordpress</div>
-                <div class="skills__skill">Google ADS</div>
-                <div class="skills__skill">Facebook Ads</div>
-                <div class="skills__skill">Android</div>
-                <div class="skills__skill">IOS</div>
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">Jupyter Notebook</div>
+                <div class="skills__skill">Random Forest Classifier</div>
+                <div class="skills__skill">Scikit-learn</div>
+                <div class="skills__skill">Pandas</div>
+                <div class="skills__skill">Numpy</div>
+                <div class="skills__skill">Matplotlib</div>
+                <div class="skills__skill">GridSearchCV</div>
+                <div class="skills__skill">Seaborn</div>
               </div>
             </div>
             <div class="project-details__links">
               <h3 class="project-details__content-title">See Live</h3>
               <a
-                href="#"
+                href="https://github.com/pronzzz/red-wine-quality"
                 class="btn btn--med btn--theme project-details__links-btn"
                 target="_blank"
-                >Live Link</a
+                >Project Link</a
               >
               <a
-                href="#"
+                href="./index.html"
                 class="btn btn--med btn--theme-inv project-details__links-btn"
                 target="_blank"
-                >Code Link</a
+                >Go Back</a
               >
             </div>
           </div>
@@ -171,14 +196,14 @@
               <span>Social</span>
             </h2>
             <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/pranav-dwivedi2003/">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/linkedin-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://github.com/pronzzz">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/github-ico.png"
@@ -209,18 +234,18 @@
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
+            <h4 class="heading heading-sm text-lt">Pranav Dwivedi</h4>
             <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
+              Robotics and AI specialist with expertise in machine learning, quantitative analysis, and cloud computing, 
+              eager to contribute to dynamic projects.
             </p>
           </div>
         </div>
 
         <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
+          &copy; Copyright 2024. Made by
+          <a rel="noreferrer" target="_blank" href="#"
+            >Pranav Dwivedi</a
           >
         </div>
       </div>
